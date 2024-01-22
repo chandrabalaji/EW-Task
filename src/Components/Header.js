@@ -30,10 +30,10 @@ const Header = () => {
         <div>
           <CgProfile />
         </div>
+        <button id="orderbtn">Order Now</button>
         <div id="menu-dot" onClick={handleMenubtn}>
           <TbMenuDeep />
         </div>
-        <button id="orderbtn">Order Now</button>
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import bg1 from "../images/Rectangle1.png";
 import bg2 from "../images/Groupe2.png";
 import bg3 from "../images/Group3.png";
 import bg4 from "../images/Rectangle3.png";
-
 import bg5 from "../images/Rectangle7.png";
 import bg6 from "../images/Rectangle11.png";
 import bg7 from "../images/Rectangle12.png";

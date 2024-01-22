@@ -12,6 +12,9 @@
   flex-wrap: wrap;
   align-items: center;
   box-sizing: border-box;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
 }
 .logo {
   margin-left: 20px;
@@ -63,6 +66,7 @@
 
 .Main {
   position: relative;
+  top: 90px;
 }
 .bg-img {
   width: 100vw;
@@ -116,11 +120,14 @@ h4 {
 .about-img-2 {
   display: flex;
   gap: 10px;
+  box-sizing: border-box;
 }
 .about-img-1 {
   display: flex;
   gap: 10px;
+  box-sizing: border-box;
 }
+
 #img-1 {
   align-self: flex-start;
   object-fit: contain;
@@ -155,6 +162,7 @@ button {
 .menu {
   width: 100vw;
   position: relative;
+  margin-top: 100px;
 }
 .menu-title {
   display: flex;
@@ -268,6 +276,7 @@ button {
   display: flex;
   margin: 30px 40px;
   padding: 40px 50px;
+  overflow-x: hidden;
 }
 .img-ret {
   position: relative;
@@ -335,10 +344,11 @@ button {
 }
 .info {
   display: block;
-  width: 100vw;
+  /* width: 50vw; */
   display: grid;
   justify-content: center;
   margin-top: 10px;
+  box-sizing: border-box;
 }
 .rights {
   display: flex;
@@ -374,8 +384,8 @@ button {
     width: 80%;
   }
   .menu-items img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 160px;
+    max-height: 170px;
   }
   .menu-content {
     top: 30px;
@@ -517,6 +527,17 @@ button {
   }
   .img-ret {
     width: 90vw;
+  }
+  #img-abs {
+    position: absolute;
+    top: 280px;
+    right: 25px;
+  }
+  .main-about {
+    width: 90vw;
+  }
+  .Main {
+    margin-bottom: 30px;
   }
 }
 
